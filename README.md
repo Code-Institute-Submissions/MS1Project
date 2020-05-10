@@ -3,13 +3,13 @@
 This is my personal website, it is developed as the Milestone One project within the Full Stack Web Developer program
 with the Code Institute. In this project, I explain who I am, what I do, my work experience and the various ways that you can contact me.
 
-## UX
+### UX
 
-## Features
+### Features
 
-## Testing
+### Testing
 
-## Techologies and Resources Used
+### Techologies and Resources Used
 
 My website use the following technologies:
 
@@ -24,9 +24,9 @@ My website use the following technologies:
  * Visual Studio Code as editor (https://code.visualstudio.com/).
  * Balsamiq for wireframes design (https://balsamiq.com/).
   
-## Deployment
+### Deployment
 
-## Credits
+### Credits
 
-## License
+### License
 
