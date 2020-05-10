@@ -5,7 +5,19 @@ with the Code Institute. In this project, I explain who I am, what I do, my work
 
 ### UX
 
+The website is built for recruiters, they will be able to know my work experience and my technical skilss as a Full Stack Developer.
+
+The site has a clean, intuitive and comfortable appearence to visit from any device, it is designed followin the Mobile First philosophy. The website also has a navigation bar located at the top on the "About Me", "Experience", "Portfolio" and "Contact Form" pages.
+
 ### Features
+
+The website is estructured in the following pages:
+  
+  * Landing page: Is the first page that the user will see when visit my website, it will allow the user navigate in the website and the link to my social networks.
+  * About Me: Contains information about me, education and habilities.
+  * Experience: Contains information about my work experience.
+  * Portfolio: Contains a link to each of my repositories on GitHub and projects that I´m currently working in.
+  * Contacto: Contains a contact form.
 
 ### Testing
 
