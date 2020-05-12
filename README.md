@@ -22,15 +22,17 @@ The website is estructured in the following pages:
 
 Landing Page:
 * *Button based menu on landing page:  
-Allow users to navigate to other pages of the site.
+Allows user to navigate to other pages of the site.
+* *Download resume button:
+Allows user to download a PDF file with my resume
 
 About Me:
 * *Progress Bar
 Allows User to know my skills and how much experience I have in each of them. 
 
 Experience:
-* *Timeline:
-Allows user to see my work experience across a timeline
+* *Projects Card
+Allows user to see my work experience with a link to the page or project.
 
 Contact Page:
 * *Contact  Form:
@@ -54,10 +56,13 @@ My website use the following technologies:
  * Hover CSS: For hover effects across all the website (https://cdnjs.com/libraries/hover.css).
  * Visual Studio Code as editor (https://code.visualstudio.com/).
  * Balsamiq for wireframes design (https://balsamiq.com/).
+ * Fontawesome, vector icons and social logos (https://fontawesome.com/).
   
 ### Deployment
 
 ### Credits
+
+This project is inspired on the Rosie Odenkrik Resume Project
 
 ### License
 
