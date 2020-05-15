@@ -1,0 +1,123 @@
+body{
+    overflow: hidden;
+}
+
+header{
+    height:10px;
+}
+
+.landing-menu-item{
+    margin: 0;
+    padding: 0;
+    border:0;
+    width: 33%;
+    background-color: crimson;
+    font-size:25px;
+    text-decoration-style: none;
+}
+
+#landing-menu{
+    border:0;
+    margin:0;
+}
+
+#landing-image{
+    background: url("../images/hero-image.jpg");
+    height:360px;
+    width: 100%;
+    margin:0;
+    padding: 0;
+    border:0;
+}
+.social-link{
+    font-size: 35px;
+    color: white;
+}
+
+#menu{
+    height: 100px;
+}
+
+.social-container{
+    border-radius: 50%;
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.container{
+    margin-top: 100px;
+}
+
+h1{
+    font-size: 22px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h2{
+    visibility: hidden;
+}
+
+h3{
+    font-size: 16px;
+}
+
+h4{
+    font-size: 40px;
+}
+i{
+  display: block;
+  padding-top: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+#hero-image{
+    background-image: url("./assets/images/hero-image.jpg");
+    width: 100%;
+}
+
+#main-menu{
+    background-color: cornflowerblue;
+    margin-right: 0;
+    padding: 0;
+    border:0;
+}
+
+.list-inline-item:not(:last-child){
+    margin: 0;
+    padding: 0;
+    border:0;
+}
+
+.logo{
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.landing-info{
+    width: 40%;
+}
+
+a:link, a:visited, a:active{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    text-decoration-style: none;
+    color: #fff;
+}
+
+.footer-container{
+    width: 50%;
+}
+
