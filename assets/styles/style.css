@@ -177,3 +177,14 @@ a:link, a:visited, a:active{
     font-size: 25px;
     font-weight: bold;
 }
+
+/* ABOUT PAGE
+=============================================== */
+
+.skill{
+    font-size: 80px;
+}
+
+.card{
+    height: 190px;
+}

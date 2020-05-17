@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Meta Information about the website and its author  -->
         <meta charset="author" content="Harving F. Zúniga Espinoza">
         <meta charset="description" content="Harving Zúniga - Full Stack Web Developer">
         <!-- Bootstrap Responsive Meta Tag  -->
@@ -14,200 +15,202 @@
         <script src="https://kit.fontawesome.com/d8f2b779b7.js" crossorigin="anonymous"></script>
         <title>Harving Zúniga | Full Stack Web Developer</title>
     </head>
-<body class="container bg-light">
-    <header>
-        <!-- navbar  -->
-        <!-- This navbar is based on the Bootstrap Navbar Example  
-             This id the link to the online example: https://getbootstrap.com/docs/4.5/components/navbar/ -->
-        <nav class="navbar navbar-light navbar-expand-sm bg-light fixed-top justify-content-between">
-            <!-- Band section  -->
-            <a href="index.html" class="navbar-brand">
-                <div class="d-flex navbar-brand mr-auto">
-                    <!-- Brand Image  -->
-                    <a href="index.html" class="">
-                        <img class="logo mr-2" src="./assets/images/Profile.jpg" alt="Harving Photo">
-                    </a>
-                    <!-- Brand Name -->
-                    <div>
-                        <h1>Harving Zúniga</h1>
-                        <h3>Full Stack Web Developer</h3>
+    <body class="container bg-light">
+        <header>
+            <!-- navbar  -->
+            <!-- This navbar is based on the Bootstrap Navbar Example  
+                This id the link to the online example: https://getbootstrap.com/docs/4.5/components/navbar/ -->
+            <nav class="navbar navbar-light navbar-expand-sm bg-light fixed-top justify-content-between">
+                <!-- Band section  -->
+                <a href="index.html" class="navbar-brand">
+                    <div class="d-flex navbar-brand mr-auto">
+                        <!-- Brand Image  -->
+                        <a href="index.html" class="">
+                            <img class="logo mr-2" src="./assets/images/Profile.jpg" alt="Harving Photo">
+                        </a>
+                        <!-- Brand Name -->
+                        <div>
+                            <h1>Harving Zúniga</h1>
+                            <h3>Full Stack Web Developer</h3>
+                        </div>
+                    </div>
+                </a>
+                <!-- Toggler Button  -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle Navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Navbar Menu  -->
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                    <!-- navbar Menu Items  -->
+                    <ul class="navbar-nav mt-2 mt-lg-0 ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="experience.html">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>              
+        </header>
+        <main class="">
+            <!-- Page Content  -->
+        <div class="row">
+            <!-- Contact Form  -->
+                <div class="col-12 col-sm-12 col-md-6">
+                    <h3>Send an Email</h3>
+                    <hr>
+                    <div class="row my-4" id="form-row">
+                        <form action="" class="col-12 col-sm-12">
+                            <!-- First Name and Last Name Input  -->
+                            <div class="row">
+                                <!-- First Name Input  -->
+                                <div class="form-group col-12 col-sm-12 col-md-6">
+                                    <label for="fname">First Name</label>
+                                    <input type="text" id="fname" class="form-control" required>
+                                </div>
+                                <!-- Last Name Input  -->
+                                <div class="form-group col-12 col-sm-12 col-md-6">
+                                    <label for="lname">Last Name</label>
+                                    <input type="text" id="lname" class="form-control" required>
+                                </div>
+                            </div>
+                            <!-- Email Input  -->
+                            <div class="row">
+                                <div class="form-group col-12 col-sm-12">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" class="form-control" required>
+                                </div>
+                            </div>
+                            <!-- Country and Phone Input  -->
+                            <div class="row">
+                                <!-- Country Select Option  -->
+                                <div class="form-group col-12 col-sm-12 col-md-6">
+                                    <label for="country">Country</label>
+                                    <select name="country" id="country" class="form-control">
+                                        <option value=""></option>
+                                        <option value="France">France</option>
+                                        <option value="Germany">Germany</option>
+                                        <option value="Italy">Italy</option>
+                                        <option value="Spain">Spain</option>
+                                        <option value="United-Kingdom">United Kingdom</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                </div>
+                                <!-- Telephone Input Option  -->
+                                <div class="form-group col-12 col-sm-12 col-md-6">
+                                    <label for="phone">Telephone</label>
+                                    <input type="number" id="phone" class="form-control" required>
+                                </div>
+                            </div>
+                            <!-- Subject Input  -->
+                            <div class="row">
+                                <div class="form-group col-12 col-sm-12">
+                                    <label for="subject">Subject</label>
+                                    <input type="text" id="subject" class="form-control" required>
+                                </div>
+                            </div>
+                            <!-- Message Input  -->
+                            <div class="row">
+                                <div class="form-group col-12 col-sm-12">
+                                    <label for="message">Message</label>
+                                    <textarea name="message" id="message" cols="30" rows="5" class="form-control"></textarea>
+                                </div>
+                            </div>
+                            <!-- Submit Button -->
+                            <button type="submit" class="btn btn-primary">Submit</button>  
+                        </form>
                     </div>
                 </div>
-            </a>
-            <!-- Toggler Button  -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle Navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- Navbar Menu  -->
-            <div class="collapse navbar-collapse" id="navbarToggler">
-                <!-- navbar Menu Items  -->
-                <ul class="navbar-nav mt-2 mt-lg-0 ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
+                <!-- Call Options  -->
+                <div class="col-12 col-sm-12 col-md-6">
+                    <div>
+                        <h3>Call Me</h3>
+                        <hr>
+                        <!-- Call Me Options  -->
+                        <div class="col-12 col-sm-12 d-flex justify-content-around">
+                            <!-- Telephonic Call  -->
+                            <a href="" class="">
+                                <i class="fas fa-phone-alt contact-item"></i>
+                            </a>
+                            <!-- WhatsApp Call  -->
+                            <a href="" class="">
+                                <i class="fab fa-whatsapp contact-item"></i>
+                            </a>
+                            <!-- Skype Call  -->
+                            <a href="callto:h.zuniga" class="">
+                                <i class="fab fa-skype contact-item"></i>
+                            </a>                  
+                        </div>
+                    </div>
+                    <!-- Book for a call Buttom  -->
+                    <!-- This option is inspired in the Book for a Call Option of Code Institute, it use calendly for
+                    for schedule  -->
+                    <div class="my-5">
+                        <h3>Book for a meeting</h3>
+                        <hr>
+                        <a href="https://calendly.com/hzuniga/30min">
+                            <div>
+                                <div class="d-block btn btn-danger booking-buttom">
+                                    <i class="far fa-calendar-check" aria-hidden="true"></i>
+                                    <p>Book for a Meeting</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Social Network Profiles  -->
+                    <div class="my-5">
+                        <h3>Follow Me</h3>
+                        <hr>
+                        <!-- Social Network Items  -->
+                        <div class="col-12 col-sm-12 d-flex justify-content-around">
+                            <!-- GitHub Profile Link -->
+                            <a href="https://github.com/hfzespinoz4">
+                                <i class="fab fa-github-alt contact-item" aria-hidden="true"></i>
+                            </a>
+                            <!-- Twitter Profile Link-->
+                            <a href="https://twitter-com/hzunigae">
+                                <i class="fab fa-twitter contact-item" aria-hidden="true"></i>
+                            </a>
+                            <!-- LinkedIn Profile Link -->
+                            <a href="https://linkedin.com/hzunigae">
+                                <i class="fab fa-linkedin-in contact-item" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <hr>
+        <div class="row my-5 py-4"></div>
+        </main>
+        <!-- Footer Links -->
+        <footer class="d-flex">
+            <!-- Copyright Statement -->
+            <div class="col-sm-6 footer-container">
+                <p class=>Copyright 2020</p>
+            </div>
+            <!-- Privacy Policy and Terms of Use Statement -->
+            <div class="col-sm-6 footer-container mr-auto">
+                <ul class="list-inline justify-content-between">
+                    <li class="list-inline-item mx-2">
+                        <a class="">Terms Of Use</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="experience.html">Experience</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="contact.html">Contact</a>
+                    <li class="list-inline-item">
+                        <a class="">Privacy Policy</a>
                     </li>
                 </ul>
             </div>
-        </nav>              
-    </header>
-    <main class="">
-        <!-- Page Content  -->
-       <div class="row">
-           <!-- Contact Form  -->
-            <div class="col-12 col-sm-12 col-md-6">
-                <h3>Send an Email</h3>
-                <hr>
-                <div class="row my-4" id="form-row">
-                    <form action="" class="col-12 col-sm-12">
-                        <!-- First Name and Last Name Input  -->
-                        <div class="row">
-                            <!-- First Name Input  -->
-                            <div class="form-group col-12 col-sm-12 col-md-6">
-                                <label for="fname">First Name</label>
-                                <input type="text" id="fname" class="form-control" required>
-                            </div>
-                            <!-- Last Name Input  -->
-                            <div class="form-group col-12 col-sm-12 col-md-6">
-                                <label for="lname">Last Name</label>
-                                <input type="text" id="lname" class="form-control" required>
-                            </div>
-                        </div>
-                        <!-- Email Input  -->
-                        <div class="row">
-                            <div class="form-group col-12 col-sm-12">
-                                <label for="email">Email</label>
-                                <input type="email" id="email" class="form-control" required>
-                            </div>
-                        </div>
-                        <!-- Country and Phone Input  -->
-                        <div class="row">
-                            <!-- Country Select Option  -->
-                            <div class="form-group col-12 col-sm-12 col-md-6">
-                                <label for="country">Country</label>
-                                <select name="country" id="country" class="form-control">
-                                    <option value=""></option>
-                                    <option value="France">France</option>
-                                    <option value="Germany">Germany</option>
-                                    <option value="Italy">Italy</option>
-                                    <option value="Spain">Spain</option>
-                                    <option value="United-Kingdom">United Kingdom</option>
-                                    <option value="Other">Other</option>
-                                </select>
-                            </div>
-                            <!-- Telephone Input Option  -->
-                            <div class="form-group col-12 col-sm-12 col-md-6">
-                                <label for="phone">Telephone</label>
-                                <input type="number" id="phone" class="form-control" required>
-                            </div>
-                        </div>
-                        <!-- Subject Input  -->
-                        <div class="row">
-                            <div class="form-group col-12 col-sm-12">
-                                <label for="subject">Subject</label>
-                                <input type="text" id="subject" class="form-control" required>
-                            </div>
-                        </div>
-                        <!-- Message Input  -->
-                        <div class="row">
-                            <div class="form-group col-12 col-sm-12">
-                                <label for="message">Message</label>
-                                <textarea name="message" id="message" cols="30" rows="5" class="form-control"></textarea>
-                            </div>
-                        </div>
-                        <!-- Submit Button -->
-                        <button type="submit" class="btn btn-primary">Submit</button>  
-                    </form>
-                </div>
-            </div>
-            <!-- Call Options  -->
-            <div class="col-12 col-sm-12 col-md-6">
-                <div>
-                    <h3>Call Me</h3>
-                    <hr>
-                    <!-- Call Me Options  -->
-                    <div class="col-12 col-sm-12 d-flex justify-content-around">
-                        <!-- Telephonic Call  -->
-                        <a href="" class="">
-                            <i class="fas fa-phone-alt contact-item"></i>
-                        </a>
-                        <!-- WhatsApp Call  -->
-                        <a href="" class="">
-                            <i class="fab fa-whatsapp contact-item"></i>
-                        </a>
-                        <!-- Skype Call  -->
-                        <a href="callto:h.zuniga" class="">
-                            <i class="fab fa-skype contact-item"></i>
-                        </a>                  
-                    </div>
-                </div>
-                <!-- Book for a call Buttom  -->
-                <div class="my-5">
-                    <h3>Book for a meeting</h3>
-                    <hr>
-                    <a href="https://calendly.com/hzuniga/30min">
-                        <div>
-                            <div class="d-block btn btn-danger booking-buttom">
-                                <i class="far fa-calendar-check" aria-hidden="true"></i>
-                                <p>Book for a Meeting</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- Social Network Profiles  -->
-                <div class="my-5">
-                    <h3>Follow Me</h3>
-                    <hr>
-                    <!-- Social Network Items  -->
-                    <div class="col-12 col-sm-12 d-flex justify-content-around">
-                        <!-- GitHub Profile Link -->
-                        <a href="https://github.com/hfzespinoz4">
-                            <i class="fab fa-github-alt contact-item" aria-hidden="true"></i>
-                        </a>
-                        <!-- Twitter Profile Link-->
-                        <a href="https://twitter-com/hzunigae">
-                            <i class="fab fa-twitter contact-item" aria-hidden="true"></i>
-                        </a>
-                        <!-- LinkedIn Profile Link -->
-                        <a href="https://linkedin.com/hzunigae">
-                            <i class="fab fa-linkedin-in contact-item" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-       </div>
-       <hr>
-       <div class="row my-5 py-4"></div>
-    </main>
-    <!-- Footer Links -->
-    <footer class="d-flex">
-        <!-- Copyright Statement -->
-        <div class="col-sm-6 footer-container">
-            <p class=>Copyright 2020</p>
-        </div>
-        <!-- Privacy Policy and Terms of Use Statement -->
-        <div class="col-sm-6 footer-container mr-auto">
-            <ul class="list-inline justify-content-between">
-                <li class="list-inline-item mx-2">
-                    <a class="">Terms Of Use</a>
-                </li>
-                <li class="list-inline-item">
-                    <a class="">Privacy Policy</a>
-                </li>
-            </ul>
-        </div>
-    </footer>
-    <!-- These are scripts from Bootstrap and other, each one of them is explained -->
-    <!-- Bootstrap Scripts  -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-</body>
+        </footer>
+        <!-- These are scripts from Bootstrap and other, each one of them is explained -->
+        <!-- Bootstrap Scripts  -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
 </html>
