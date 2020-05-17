@@ -2,7 +2,7 @@ body{
     margin:0;
     padding:0;
     border:0;
-    background: linear-gradient(to top, #0076A2, white 15%);
+   
 }
 
 header{
@@ -158,3 +158,22 @@ a:link, a:visited, a:active{
      padding-right: 0;
  }
 
+.container{
+    max-height: 100%;
+}
+
+
+/* CONTACT PAGE
+=============================================== */
+
+.contact-item{
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+.booking-buttom{
+    font-size: 25px;
+    font-weight: bold;
+}
