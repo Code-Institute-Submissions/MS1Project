@@ -43,16 +43,16 @@
                 <div class="collapse navbar-collapse" id="navbarToggler">
                     <!-- navbar Menu Items  -->
                     <ul class="navbar-nav mt-2 mt-lg-0 ml-auto">
-                        <li class="nav-item">
+                        <li class="nav-item ml-auto">
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item ml-auto">
                             <a class="nav-link active" href="about.html">About Me</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item ml-auto">
                             <a class="nav-link" href="experience.html">Experience</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item ml-auto">
                             <a class="nav-link" href="contact.html">Contact</a>
                         </li>
                     </ul>
@@ -60,80 +60,205 @@
             </nav>              
         </header>
         <main>
-            <div class="row">
-
+            <div class="d-block">
+                <!-- introduction  -->
+                <div class="col-12 col-sm-12 d-block justify-content-center text-center">
+                    <img src="./assets/images/Profile.jpg" alt="Profile Image" class="profile-i mb-4">
+                    <h4>Hello, I´m Harving</h4>
+                    <p>
+                        I am a Systems Engineer, lover of technology, movies and music. I recently ventured into the world of Web Development, proficient on JavaScript and Python. 
+                        I also have experience in Windows and VMWare Servers, SQL Databases and Visual Basic.Net
+                    </p>
+                </div>
+                <!-- Download Resume Button  -->
+                <div class="col-12 col-sm-12 justify-content-center text-center btn-group">
+                    <div class="col-3 col-sm-3 btn btn-danger download-resume">
+                        <p class="my-auto">Download Resume</p>
+                    </div>
+                    <div class="col-3 col-sm-3 btn btn-danger download-resume">
+                        <p class="my-auto">Schedule a Meeting</p>
+                    </div>
+                </div>
             </div>
-            <div class="row col-12 col-sm-12 d-flex justify-content-around">
-                <div class="card col-2 col-sm-4 col-md-2 skill">
-                    <i class="fab fa-html5 text-center"></i>
+            <!-- Why Hire Me Section  -->
+            <div class="row" id="about-reason">
+                <div class="my-4 col-12 col-sm-12">
+                    <hr>
+                    <h4 class="text-center"> Why Hire Me?</h4>
+                </div>
+                <!-- Reasons to Hire Me  -->
+                <div class="row col-12 col-sm-12 d-flex justify-content-around mx-auto">
+                    <!-- Reason 1 - Team Pleayer  -->
+                    <div class="col-12 col-sm-12 col-md-4 d-block text-center">
+                        <i class="fas fa-users text-center skill my-2"></i>
+                        <div class="my-2 ml-3">
+                            <h5>Team Player</h5>
+                            <p>I will work with my team to achieve the proposed goals.</p>
+                        </div>                     
+                    </div>
+                    <!-- Reason 2 - Compromise  -->
+                    <div class="col-12 col-sm-12 col-md-4 d-block text-center">
+                        <i class="far fa-calendar-alt text-center skill my-2"></i>
+                        <div class="my-2 ml-3">
+                            <h5>Compromise</h5>
+                            <p>I will achieve the assigned task on time and keep my team update.</p>
+                        </div>
+                    </div>
+                    <!-- Reason 3 - Quality  -->
+                    <div class="col-12 col-sm-12 col-md-4 d-block text-center">
+                        <i class="fas fa-certificate text-center skill my-2"></i>
+                        <div class="my-2 ml-3">
+                            <h5>Quality</h5>
+                            <p>Every task done with Quality and certified tools and enviroments. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Technical Skills Section  -->
+            <div class="row">  
+                <div class="my-4 col-12 col-sm-12">
+                    <hr>
+                    <h4 class="text-center">My Skills</h4>               
+                </div>
+            </div>            
+            <div class="row col-12 col-sm-12 d-flex justify-content-around mx-auto skills-front">
+                <!-- HTML  -->
+                <div class="card col-12 col-sm-12 col-md-2 skill mx-auto my-1">
+                    <i class="fab fa-html5 text-center skill-html"></i>
                     <h5 class="text-center">HTML</h5>
+                    <!-- Progress Bar  -->
                     <div class="progress">
                         <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%;">
                             <span class="sr-only">90% Complete</span>
                         </div>
                     </div>
+                    <!-- Description  -->
                     <h6 class="text-center my-2">90% Complete</h6>
                 </div>
-                <div class="card col-2 col-sm-4 col-md-2 skill">
-                    <i class="fab fa-css3-alt text-center"></i>
+                <!-- CSS  -->
+                <div class="card col-12 col-sm-12 col-md-2 skill mx-auto my-1">
+                    <i class="fab fa-css3-alt text-center skill-css"></i>
                     <h5 class="text-center">CSS</h5>
+                    <!-- Progress Bar  -->
                     <div class="progress">
                         <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%;">
                             <span class="sr-only">90% Complete</span>
                         </div>
                     </div>
+                    <!-- Description  -->
                     <h6 class="text-center my-2">90% Complete</h6>
                 </div>
-                <div class="card col-2 col-sm-4 col-md-2 skill">
-                    <i class="fab fa-js text-center"></i>
-                    <h5 class="text-center">JavaScript</h5>
+                <!-- JavaScript  -->
+                <div class="card col-12 col-sm-12 col-md-2 skill mx-auto my-1">
+                    <i class="fab fa-js text-center skill-js"></i>
+                    <h5 class="text-center">Java Script</h5>
+                    <!-- Progress Bar  -->
                     <div class="progress">
                         <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%;">
                             <span class="sr-only">70% Complete</span>
                         </div>
                     </div>
+                    <!-- Description  -->
                     <h6 class="text-center my-2">70% Complete</h6>
                 </div>
-                <div class="card col-2 col-sm-4 col-md-2 skill">
-                    <i class="fab fa-python text-center"></i>
+                <!-- Python  -->
+                <div class="card col-12 col-sm-12 col-md-2 skill mx-auto my-1">
+                    <i class="fab fa-python text-center skill-python"></i>
                     <h5 class="text-center">Python</h5>
+                    <!-- Progress Bar -->
                     <div class="progress">
                         <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%;">
                             <span class="sr-only">75% Complete</span>
                         </div>
                     </div>
+                    <!-- Description  -->
                     <h6 class="text-center my-2">75% Complete</h6>
                 </div>
-                <div class="card col-2 col-sm-4 col-md-2 skill">
-                    <i class="fab fa-git-alt text-center"></i>
+                <!-- Git  -->
+                <div class="card col-12 col-sm-12 col-md-2 skill mx-auto my-1">
+                    <i class="fab fa-git-alt text-center skill-git"></i>
                     <h5 class="text-center">Git</h5>
+                    <!-- Progress Bar  -->
                     <div class="progress">
                         <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:90%;">
                             <span class="sr-only">80% Complete</span>
                         </div>
                     </div>
+                    <!-- Description  -->
                     <h6 class="text-center my-2">80% Complete</h6>
                 </div>
-            </div>
-            <div class="row my-5">
-
-            </div>
+            </div>            
+            <div class="row my-5"></div>
+            <hr>
         </main>
         <footer class="d-flex">
             <!-- Copyright Statement -->
             <div class="col-sm-6 footer-container">
-                <p class=>Copyright 2020</p>
-            </div>
-            <!-- Privacy Policy and Terms of Use Statement -->
-            <div class="col-sm-6 footer-container mr-auto">
-                <ul class="list-inline justify-content-between">
+                <ul class="list-inline mr-auto">
+                    <li class="list-inline-item">
+                        <a class="">Copyright 2020</a>
+                    </li>
                     <li class="list-inline-item mx-2">
                         <a class="">Terms Of Use</a>
                     </li>
                     <li class="list-inline-item">
                         <a class="">Privacy Policy</a>
                     </li>
+                </ul>                
+            </div>
+            <!-- Social Network and Contact Links -->
+            <div class="col-sm-6 footer-container mr-auto">
+                <ul id="social-menu" class="row list-inline d-flex my-auto justify-content-end">
+                    <!-- Twitter Social Link -->
+                    <li class="mx-1">
+                        <a class="" href="https://twitter-com/hzunigae">
+                            <div class="social-footer">
+                                <i class="fab fa-twitter" aria-hidden="true"></i>
+                            </div>
+                        </a>
+                    </li>
+                    <!-- Github Profile Link -->
+                    <li class="mx-1">
+                        <a class="" href="https://github.com/hfzespinoz4">
+                            <div class="social-footer">
+                                <i class="fab fa-github-alt" aria-hidden="true"></i>
+                            </div>
+                        </a>
+                    </li>
+                    <!-- LinkedIn Profile Link -->
+                    <li class="mx-1">
+                        <a class="" href="https://linkedin.com/hzunigae">
+                            <div class="social-footer">
+                                <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                            </div>
+                        </a>
+                    </li>
+                    <!-- Contact Link -->
+                    <li class="mx-1">
+                        <a class="" href="./contact.html">
+                            <div class="social-footer">
+                                <i class="fas fa-envelope" aria-hidden="true"></i>
+                            </div>
+                        </a>
+                    </li>
+                    <!-- Skype Callto Link -->
+                    <li class="mx-1">
+                        <a class="" href="callto:h.zuniga">
+                            <div class="social-footer">
+                                <i class="fab fa-skype" aria-hidden="true"></i>
+                            </div>
+                        </a>
+                    </li>
+                    <!-- Calendly - Book for a Meeting Link -->
+                    <li class="mx-1 ">
+                        <a class="" href="https://calendly.com/hzuniga/30min">
+                            <div class="social-footer">
+                                <i class="far fa-calendar-check" aria-hidden="true"></i>
+                            </div>
+                        </a>
+                    </li>
                 </ul>
+                
             </div>
         </footer>
         <!-- These are scripts from Bootstrap and other, each one of them is explained -->

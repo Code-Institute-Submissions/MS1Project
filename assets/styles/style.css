@@ -5,9 +5,26 @@ body{
    
 }
 
+.active{
+    border-bottom: solid 1px #777777;
+}
+
+.nav-link:hover{
+    border-bottom: solid 1px #777777;
+}
+
+.social-footer{
+    color: grey;
+    font-size: 1.5rem;;
+}
+
 header{
     height:60px;
     display: block;
+}
+
+footer{
+    line-height: 25px;
 }
 
 #brand-page{
@@ -187,4 +204,35 @@ a:link, a:visited, a:active{
 
 .card{
     height: 190px;
+}
+
+.skill-html{
+color:crimson
+}
+
+.skill-css{
+color: orangered;
+}
+
+.skill-js{
+color: yellowgreen;
+}
+
+.skill-python{
+color: navy;
+}
+
+.skill-git{
+color: crimson;
+}
+
+.download-resume{
+    font-weight: 900;
+
+}
+
+.profile-i{
+    height:10rem;
+    width:10rem;
+    border-radius: 50%;
 }
