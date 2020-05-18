@@ -5,6 +5,20 @@ body{
    
 }
 
+/*Based on the Beyond Bootstrap Section of the module 
+https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/4b3b1b062b01424997c8fd052e177b8e/?child=first*/
+
+.callout-container{
+    height: 60vh;
+    background: url("../images/hero-image.jpg") no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display:flex;
+    position: relative;
+}
+
 .active{
     border-bottom: solid 1px #777777;
 }
@@ -120,8 +134,14 @@ i{
     background-image: url("./assets/images/hero-image.jpg");
     max-width: 100%;
     height: auto;
+    
 }
-
+.landing-image{
+    z-index: 0;
+}
+.landing-content{
+    z-index: 1;
+}
 #main-menu{
     background-color: cornflowerblue;
     /*margin-right: 0;
@@ -228,11 +248,32 @@ color: crimson;
 
 .download-resume{
     font-weight: 900;
-
 }
 
 .profile-i{
     height:10rem;
     width:10rem;
     border-radius: 50%;
+}
+
+/* EXPERIENCE PAGE
+=============================================== */
+
+.img-project{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.project-link{
+    margin:0;
+    padding:0;
+}
+
+.text-wrap{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.project-container{
+    height:300px;
 }
