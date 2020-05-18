@@ -3,11 +3,14 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta charset="author" content="Harving F. Zúniga Espinoza">
-        <meta charset="description" content="Harving Zúniga - Full Stack Web Developer">
+        <meta name="author" content="Harving F. Zúniga Espinoza">
+        <meta name="description" content="Harving Zúniga - Full Stack Web Developer">
         <!-- Styles -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <link rel="stylesheet" href="./assets/styles/style.css">
+        <!-- Hover CSS  -->
+        <!-- I got this CSS from https://ianlunn.co.uk/articles/hover-css-tutorial-introduction/  -->
+        <link href="./assets/styles/hover.css" rel="stylesheet" media="all">
         <!-- Fontawesome -->
         <script src="https://kit.fontawesome.com/d8f2b779b7.js" crossorigin="anonymous"></script>
         <title>Harving Zúniga | Full Stack Web Developer</title>
@@ -28,15 +31,14 @@
             </div>            
         </header>
         <main class="mt-5"> 
-
             <!-- Hero Image -->
             <section class="container-fluid callout-container">
                 <h2></h2>
-                <div class="d-flex" id=""></div>                   
+                <div class="d-flex">                  
                     <div class="landing-content my-auto">
                         <div class="ml-5">
-                            <h4 id="">The World has changed</h4>
-                            <p class="col-12 col-sm-8 text-wrap mb-3" id="">And your company should too, convert your business into an e-commerce and start selling to all the world</p>
+                            <h4>The World has changed</h4>
+                            <p class="col-12 col-sm-8 text-wrap mb-3">And your company should too, convert your business into an e-commerce and start selling to all the world</p>
                         </div>
                         <!-- Landing Call to Action Buttons -->
                         <div id="landing-btn-container" class="ml-5 mb-4">
@@ -49,23 +51,23 @@
             </section>
 
             <!-- Landing Page Menu -->
-            <section id="menu" class="d-block">
+            <section id="menu" class=" container-fluid d-block">
                 <h2></h2>
                 <div class="row" id="menu-bar">
                     <!-- About Me Page Link  -->
-                    <div class="col-12 col-sm-12 col-md-4 landing-menu-item">
+                    <div class="col-12 col-sm-12 col-md-4 landing-menu-item hvr-bounce-in">
                         <a href="about.html">
                             <div class=" text-center"> About Me </div>
                         </a>
                     </div>
                     <!-- Experience Page Link -->
-                    <div class="col-12 col-sm-12 col-md-4 landing-menu-item">
+                    <div class="col-12 col-sm-12 col-md-4 landing-menu-item hvr-bounce-in">
                         <a href="experience.html">
                             <div class="text-center "> Experience </div>
                         </a>
                     </div>
                     <!-- Contact Page Link -->
-                    <div class="col-12 col-sm-12 col-md-4 landing-menu-item">
+                    <div class="col-12 col-sm-12 col-md-4 landing-menu-item hvr-bounce-in">
                         <a href="contact.html">
                             <div class="text-center">Contact</div>
                         </a>
@@ -74,11 +76,11 @@
             </section>
 
             <!-- Social Networks and Contact -->
-            <section class="row justify-content-center my-5" id="">
-                <h2></h2>
-                <div class="row d-block mt-5">
-                    <div class="col-12 col-sm-12">
-                        <ul id="social-menu" class="row list-inline d-flex my-auto">
+            <section class="container-fluid socialsec-container">
+                <h2 class="d-none"></h2>
+                <div class="col-12 col-sm-12 mt-5 justify-content-center mx-auto">
+                    <div class="d-none d-md col-12 col-md-12 mx-auto justify-content-center pl-0 pr-0 d-block">
+                        <ul id="social-menu" class="list-inline d-flex my-auto justify-content-center mx-auto">
                             <!-- Twitter Social Link -->
                             <li class="mx-1">
                                 <a class="" href="https://twitter-com/hzunigae">
@@ -136,7 +138,7 @@
         <footer class="d-flex">
             <!-- Copyright Statement -->
             <div class="col-sm-6 footer-container">
-                <p class=>Copyright 2020</p>
+                <p>Copyright 2020</p>
             </div>
             <!-- Privacy Policy and Terms of Use Statement -->
             <div class="col-sm-6 footer-container mr-auto">

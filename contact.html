@@ -4,13 +4,16 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Meta Information about the website and its author  -->
-        <meta charset="author" content="Harving F. Zúniga Espinoza">
-        <meta charset="description" content="Harving Zúniga - Full Stack Web Developer">
+        <meta name="author" content="Harving F. Zúniga Espinoza">
+        <meta name="description" content="Harving Zúniga - Full Stack Web Developer">
         <!-- Bootstrap Responsive Meta Tag  -->
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!-- Styles -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <link rel="stylesheet" href="./assets/styles/style.css">
+        <!-- Hover CSS  -->
+        <!-- I got this CSS from https://ianlunn.co.uk/articles/hover-css-tutorial-introduction/  -->
+        <link href="./assets/styles/hover.css" rel="stylesheet" media="all">
         <!-- Fontawesome -->
         <script src="https://kit.fontawesome.com/d8f2b779b7.js" crossorigin="anonymous"></script>
         <title>Harving Zúniga | Full Stack Web Developer</title>
@@ -22,12 +25,10 @@
                 This id the link to the online example: https://getbootstrap.com/docs/4.5/components/navbar/ -->
             <nav class="navbar navbar-light navbar-expand-sm bg-light fixed-top justify-content-between">
                 <!-- Band section  -->
-                <a href="index.html" class="navbar-brand">
-                    <div class="d-flex navbar-brand mr-auto">
+                <a href="./index.html" class="navbar-brand">
+                    <div class="d-flex navbar-brand ml-auto">
                         <!-- Brand Image  -->
-                        <a href="index.html" class="">
-                            <img class="logo mr-2" src="./assets/images/Profile.jpg" alt="Harving Photo">
-                        </a>
+                        <img class="logo mr-2" src="./assets/images/Profile.jpg" alt="Harving Photo">
                         <!-- Brand Name -->
                         <div>
                             <h1>Harving Zúniga</h1>
@@ -50,10 +51,10 @@
                             <a class="nav-link" href="about.html">About Me</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="experience.html">Experience</a>
+                            <a class="nav-link active" href="experience.html">Experience</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="contact.html">Contact</a>
+                            <a class="nav-link" href="contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -67,7 +68,7 @@
                     <h3>Send an Email</h3>
                     <hr>
                     <div class="row my-4" id="form-row">
-                        <form action="" class="col-12 col-sm-12">
+                        <form class="col-12 col-sm-12">
                             <!-- First Name and Last Name Input  -->
                             <div class="row">
                                 <!-- First Name Input  -->
@@ -94,7 +95,7 @@
                                 <div class="form-group col-12 col-sm-12 col-md-6">
                                     <label for="country">Country</label>
                                     <select name="country" id="country" class="form-control">
-                                        <option value=""></option>
+                                        <option value="">Choose a Country </option>
                                         <option value="France">France</option>
                                         <option value="Germany">Germany</option>
                                         <option value="Italy">Italy</option>
@@ -193,7 +194,7 @@
         <footer class="d-flex">
             <!-- Copyright Statement -->
             <div class="col-sm-6 footer-container">
-                <p class=>Copyright 2020</p>
+                <p>Copyright 2020</p>
             </div>
             <!-- Privacy Policy and Terms of Use Statement -->
             <div class="col-sm-6 footer-container mr-auto">

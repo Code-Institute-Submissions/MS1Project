@@ -19,6 +19,11 @@ https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/cou
     position: relative;
 }
 
+.socialsec-container{
+    height: 20vh;
+    display: flex;
+    position: relative
+}
 .active{
     border-bottom: solid 1px #777777;
 }
