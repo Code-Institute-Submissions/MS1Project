@@ -1,3 +1,5 @@
+/*General Styles*/
+
 body{
     margin:0;
     padding:0;
@@ -42,19 +44,11 @@ header{
     display: block;
 }
 
-footer{
-    line-height: 25px;
-}
-
 #brand-page{
     align-items: center;
     justify-content: center;
 }
 .landing-menu-item{
-    /*margin: 0;
-    padding: 0;
-    border:0;
-    ;*/
     background-color: crimson;
     font-size:25px;
     text-decoration-style: none;
@@ -220,11 +214,14 @@ a:link, a:visited, a:active{
     font-weight: bold;
 }
 
-/* ABOUT PAGE
-=============================================== */
+/* ABOUT PAGE */
 
 .skill{
     font-size: 80px;
+}
+
+.skill-name{
+    font-size: 1rem;
 }
 
 .card{
@@ -261,8 +258,7 @@ color: crimson;
     border-radius: 50%;
 }
 
-/* EXPERIENCE PAGE
-=============================================== */
+/* EXPERIENCE PAGE */
 
 .img-project{
     max-width: 200px;
@@ -281,4 +277,33 @@ color: crimson;
 
 .project-container{
     height:300px;
+}
+
+/*Footer Social Buttons*/
+.fa-twitter:hover{
+    color:cornflowerblue;
+}
+
+.fa-skype:hover{
+    color:cornflowerblue;
+}
+
+.fa-envelope:hover{
+    color:orangered;
+}
+
+.fa-linkedin-in:hover{
+    color:blue;
+}
+
+.fa-github-alt:hover{
+    color:black
+}
+
+.fa-whatsapp:hover{
+    color:green;
+}
+
+.fa-phone-alt:hover{
+    color:green;
 }
