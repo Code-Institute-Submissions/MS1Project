@@ -1,9 +1,9 @@
 # Harvin Zúniga Personal Web
 
 This is my personal website, it is developed as the Milestone One project within the Full Stack Web Developer program
-with the Code Institute. In this project, I explain who I am, what I do, my work experience and the various ways that you can contact me.
+with the Code Institute. In this project, I explain who I am, what I do, my work experience and the various ways that you can contact me. [This is the URL to the website](https://hfzespinoz4.github.io/MS1Project/)
 
-### UX
+## UX
 
 The website is built for recruiters, they will be able to know my work experience and my technical skills as a Full Stack Developer. The site has a clean, intuitive and comfortable appearence to visit from any device, it is designed followin the Mobile First philosophy. 
 
@@ -35,7 +35,7 @@ The website is estructured in the following pages:
     
  
   
-### Features
+## Features
 
 #### Existing Features:
 
@@ -63,49 +63,63 @@ The website is estructured in the following pages:
   * Call menu that allows user to make a call over Telephone, Skype or WhatsApp
   * Button for book a meeting.
 
-### Testing
 
-### Techologies and Resources Used
+
+## Technologies Used
 
 My website use the following technologies:
 
-  * HTML5 and CSS3.
-  * Bootstrap 4 (https://getbootstrap.com/).
-  * GIT as version control system (https://git-scm.com/).
-  * GitHub Pages for publishing the project (https://pages.github.com/).
+  * [HTML5](https://en.wikipedia.org/wiki/HTML) 
+    * As markup language for web design.
+  * [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+    * As style sheet laguage, used for describing the website style and presentation.
+  * [Bootstrap 4](https://getbootstrap.com/)
+    * For quicky design and customize as responsive mobile-first website.
+  * [GIT](https://git-scm.com/)
+    * As version control system.
+  * [GitHub Pages](https://pages.github.com/)
+    * For hosting and deploying the website .
   
  Also use the following tools:
  
  * Visual Studio Code as editor (https://code.visualstudio.com/).
  * Calendly for Appointment and Schedule Meetings (https://calendly.com)
  * Balsamiq for wireframes design (https://balsamiq.com/).
+ 
+## Testing
   
-### Deployment
+## Deployment
 
-### Credits
+## Credits
 
-This project is inspired on the Rosie Odenkrik Resume Project
+### Media
+The photos used in this project where obtained from:
 
-Images used in landing page and Experience Page are courtesy of:
+  * [Hughes and Co](https://www.hughesandco.com/responsive-web-design-what-you-need-to-know/)
+    * Is the author of the image used for the landing page.
+  * [Website Depot](https://websitedepot.com/modern-yet-responsive-web-design-for-your-small-business/)
+    * Is the author of theimage used as web project and other projects thumbnail.
 
-  * Hughes and Co (https://www.hughesandco.com/responsive-web-design-what-you-need-to-know/)
-  * Website Depot (https://websitedepot.com/modern-yet-responsive-web-design-for-your-small-business/)
- 
-Hover Effects are courtesy of:
 
- * Ian Luun (https://ianlunn.co.uk/articles/hover-css-tutorial-introduction/)
- 
- Vector icons and social logos used across all site are courtesy of:
- 
-  * Fontawesome (https://fontawesome.com/)
+### Animations 
+The animations used in this project where obtained from:
+
+* [Ian Luun](https://ianlunn.co.uk/articles/hover-css-tutorial-introduction/)
+    * Is the author of the hover effects that I´ve used in this website
+* [Fontawesome](https://fontawesome.com/)
+    * Is the source were I found those awesome Vector icons for social logos, contact options and button´s icon. 
+  
  
 ### Acknowledgment
+This Project is inspired on:
+
+  * Code Institute Wire Store Project
+  * Code Institute Rosy Odenkrik Resume Project
+  * Code Institute Love Running Project
+
 I would like to acknowledge to the following persons:
 
   * God, my father. He give me the inspiration and the ability to do this.
   * Diego, my little son. He is my motivation and my strength.
   * Irlanda, my wife. She took care of everything so I could focus on the project.
   * Precious Ijege, my mentor. He guide me through this project.
-
-### License
-
