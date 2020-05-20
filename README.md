@@ -41,15 +41,7 @@ The website is estructured in the following pages:
     
 ### Wireframes
 
-#### Home Page
-![Home Page](./mockups/Home.png)
 
-#### About Me Page
-![About Me Page](./mockups/About_Me.png)
-
-#### Experience Page
-![Experience Page](./mockups/Experience.png)
-  
 ## Features
 
 #### Existing Features:
