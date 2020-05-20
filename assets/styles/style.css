@@ -1,31 +1,16 @@
-/*General Styles*/
+/*GENERAL STYLES*/
 
 body{
     margin:0;
     padding:0;
     border:0;
-   
 }
 
-/*Based on the Beyond Bootstrap Section of the module 
-https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/4b3b1b062b01424997c8fd052e177b8e/?child=first*/
-
-.callout-container{
-    height: 60vh;
-    background: url("../images/hero-image.jpg") no-repeat center center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    display:flex;
-    position: relative;
+.logo-text{
+    color:black;
 }
 
-.socialsec-container{
-    height: 20vh;
-    display: flex;
-    position: relative
-}
+/*Adds a solid bottom border to the select menu item*/
 .active{
     border-bottom: solid 1px #777777;
 }
@@ -44,61 +29,6 @@ header{
     display: block;
 }
 
-#brand-page{
-    align-items: center;
-    justify-content: center;
-}
-.landing-menu-item{
-    background-color: crimson;
-    font-size:25px;
-    text-decoration-style: none;
-    text-align: center;
-    color: white;
-}
-
-#landing-menu{
-    border:0;
-    margin:0;
-}
-
-#landing-image{
-    background: url("../images/hero-image.jpg");
-    height:360px;
-    width: 100%;
-    margin:0;
-    padding: 0;
-    border:0;
-}
-.social-link{
-    font-size: 35px;
-    color: white;
-}
-
-#menu{
-    height: 20px;
-    max-width: 100%;
-}
-
-.social-container{
-    border-radius: 50%;
-    background-color: black;
-    height: 3rem;
-    width: 3rem;
-    padding: 0;
-    font-size: 30px;
-    text-align: center;
-    color: white;
-    transition: all 0.7s ease-in-out;
-}
-
-.social-menu{
-    align-items: center;
-    justify-content: center;
-    align-content: space-around;
-    margin: auto;
-    max-width: 90%;
-
-}
 .container{
     margin-top: 100px;
 }
@@ -123,36 +53,16 @@ h4{
 }
 
 i{
-  display: block;
-  padding-top: 10px;
-  align-items: center;
-  justify-content: center;
+    display: block;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: center;
 }
 
-#hero-image{
-    background-image: url("./assets/images/hero-image.jpg");
-    max-width: 100%;
-    height: auto;
-    
-}
-.landing-image{
-    z-index: 0;
-}
-.landing-content{
-    z-index: 1;
-}
-#main-menu{
-    background-color: cornflowerblue;
-    /*margin-right: 0;
-    padding: 0;
-    border:0;
-    ;*/
-    width: 100%;
-    display: block
-}
 
-.list-inline-item:not(:last-child){
-    margin: 0;
+a:link, a:visited, a:active{
+    text-decoration: none;
+    color: #fff;
 }
 
 .logo{
@@ -161,46 +71,38 @@ i{
     border-radius: 50%;
 }
 
-.landing-info{
-    width: 40%;
-}
+/*HOME PAGE*/
 
-a:link, a:visited, a:active{
-    text-decoration: none;
-    color: #fff;
-}
-
-.footer-container{
-    max-width: 50%;
-    text-align: center;
-}
-
-.social-container:hover{
-    transform:translateY(-2rem);
-}
-
-#social-section{
-    display: block;
+/*Defines the style for the Home Page banner*/
+.callout-container{
+    height: 42vh;
+    width:100%;
+    background: url("../images/hero-image.jpg") center no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     max-width: 100%;
-    height: 10.5rem;
 }
 
- #landing-menu{
-     display: flex;
- }
+/*Increases the sixe of the social icons in the Home Page*/
+.main-social{
+    font-size: 2.5rem;
+}
 
- #menu-bar .col-12 .col-sm-12 .col-md-4{
-     padding-left: 0;
-     padding-right: 0;
- }
+.list-inline-item:not(:last-child){
+    margin: 0;
+}
 
 .container{
     max-height: 100%;
 }
 
 
-/* CONTACT PAGE
-=============================================== */
+/* CONTACT PAGE */
 
 .contact-item{
     font-size: 3rem;
@@ -229,23 +131,23 @@ a:link, a:visited, a:active{
 }
 
 .skill-html{
-color:crimson
+    color:crimson
 }
 
 .skill-css{
-color: orangered;
+    color: orangered;
 }
 
 .skill-js{
-color: yellowgreen;
+    color: yellowgreen;
 }
 
 .skill-python{
-color: navy;
+    color: navy;
 }
 
 .skill-git{
-color: crimson;
+    color: crimson;
 }
 
 .download-resume{
@@ -280,6 +182,7 @@ color: crimson;
 }
 
 /*Footer Social Buttons*/
+
 .fa-twitter:hover{
     color:cornflowerblue;
 }
