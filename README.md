@@ -82,8 +82,10 @@ My website use the following technologies:
   
  Also use the following tools:
  
- * Visual Studio Code as editor (https://code.visualstudio.com/).
- * Calendly for Appointment and Schedule Meetings (https://calendly.com)
+ * [Visual Studio Code](https://code.visualstudio.com/)
+    * As Integrated Development Environment (IDE).
+ * [Calendly](https://calendly.com)
+    * For Appointment and Schedule Meetings.
  * Balsamiq for wireframes design (https://balsamiq.com/).
  
 ## Testing
