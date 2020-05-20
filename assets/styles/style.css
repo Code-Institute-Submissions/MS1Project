@@ -179,7 +179,15 @@ a:link, a:visited, a:active{
 
 .project-container{
     height:300px;
+    background-color: rgb(130,201,30);
+    );
 }
+
+.oproject-container{
+    height:300px;
+    background-color: cadetblue;
+}
+
 
 /*Footer Social Buttons*/
 
