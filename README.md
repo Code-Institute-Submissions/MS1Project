@@ -9,7 +9,7 @@ The website is built for recruiters, they will be able to know my work experienc
 
 ### Design
 
-The website is designed with basic information and a clean style that allow users to keep concentrated in what they´re are looking for. Also the user will find Call To Action buttons across all the website that can be identified by its red color.
+The website is designed with basic information and a clean style that allow users to keep concentrated in what they´re are looking for. Also the user will find Call To Action buttons across all the website that can be identified by its red color. The site is responsive, was built thinking that users can browse it across all platform such as desktop, laptop, TV, tablets and smartphones.
 
 ### Structure
 
